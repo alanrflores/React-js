@@ -1,10 +1,12 @@
 import FormNoControlado from "./componentes/FormNoControlado"
+import FormularioControlado from "./componentes/FormularioControlado"
 
 const App = () => {
   return (
     <div className="container">
-        <h1>Formularios</h1>
-        <FormNoControlado />
+        <h1></h1>
+       {/*<FormNoControlado />*/}
+        <FormularioControlado />
     </div>
   )
 }

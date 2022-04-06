@@ -8,7 +8,7 @@ const FormNoControlado = () => {
 //Antes lo capturabamos por id
   const handleSubmit = e => {
       e.preventDefault();
-  
+
   const data = new FormData(formulario.current)
 
   const objetoData = Object.fromEntries([...data.entries()]);
@@ -38,7 +38,7 @@ const FormNoControlado = () => {
   return (
     <>
     <h2>No Controlado</h2>
-  
+
     <form ref={formulario} onSubmit={handleSubmit}>
       <input 
              name="todoName"
@@ -69,4 +69,4 @@ const FormNoControlado = () => {
   );
 };
 
-export default FormNoControlado
+export default FormNoControlado 
